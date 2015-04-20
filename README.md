@@ -11,9 +11,9 @@ Insert plugin tag into your template.
 The tag has three parameters:
 
 1. `id` - The NetflixShopperId for the NetFlix account. Look in your cookies for this value
-2. `limit` - Number of items to display. Default is to display all items returned.
-3. `refresh` - How often to update the cache file in minutes. The default is to update the cache file once a day.
-4. `which` - Which list of items to retrieve. There are two options 'queue' (items in the queue) or 'out' (items currently out). Default is queue.
+2. `limit` - Number of items to display. Default is to display all items returned
+3. `refresh` - How often to update the cache file in minutes. The default is to update the cache file once a day
+4. `which` - Which list of items to retrieve. There are two options 'queue' (items in the queue) or 'out' (items currently out) Default is queue.
 
 Example tag: `{exp:netflix id="P1152183453382851739665891469694171" limit="8" refresh="720"}`.
 
